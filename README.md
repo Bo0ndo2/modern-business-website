@@ -2,6 +2,11 @@
 
 A modern, responsive business portfolio website built with React, Vite, and Tailwind CSS. Perfect for showcasing services, projects, and connecting with clients.
 
+![React](https://img.shields.io/badge/React-18.2.0-blue?logo=react)
+![Vite](https://img.shields.io/badge/Vite-5.0.8-646CFF?logo=vite)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4.0-38B2AC?logo=tailwind-css)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 ## Versel Link
 
 https://modern-business-website-ahmed.vercel.app/
@@ -29,23 +34,59 @@ https://modern-business-website-ahmed.vercel.app/
 
 ![Performance](image.png)
 
+## 📦 Installation
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/modern-business-website.git
+   cd modern-business-website
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Start development server**
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Open in browser**
+   ```
+   http://localhost:5173
+   ```
+
+## 🚀 Build for Production
+
+```bash
+# Build the project
+npm run build
+
+# Preview production build
+npm run preview
+```
+
 ## 📂 Project Structure
 
 ```
 modern-business-website/
 ├── public/              # Static assets
 ├── src/
-│   ├── components/      # React components
-│   │   ├── Navbar.jsx
-│   │   ├── Hero.jsx
-│   │   ├── About.jsx
-│   │   ├── Services.jsx
-│   │   ├── Projects.jsx
-│   │   ├── Contact.jsx
-│   │   └── Footer.jsx
-│   ├── App.jsx         # Main app component
-│   ├── index.css       # Global styles
-│   └── main.jsx        # Entry point
+├── components/      # React components
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── About.jsx
+│   ├── Services.jsx
+│   ├── Projects.jsx
+│   ├── Contact.jsx
+│   └── Footer.jsx
+├── App.jsx         # Main app component
+├── index.css       # Global styles
+└── main.jsx        # Entry point
 ├── index.html
 ├── package.json
 ├── tailwind.config.js
@@ -99,15 +140,65 @@ modern-business-website/
 - Site navigation
 - Company information
 
+## 🎨 Customization
+
+### Colors
+
+Edit `tailwind.config.js` to change the color scheme:
+
+```javascript
+theme: {
+  extend: {
+    colors: {
+      // Add your custom colors
+    }
+  }
+}
+```
+
+### Content
+
+Update content in each component file located in `src/components/`
+
 ## 📱 Responsive Breakpoints
 
 - **Mobile:** < 768px
 - **Tablet:** 768px - 1024px
 - **Desktop:** > 1024px
 
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📝 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 👤 Author
+
+**Ahmed**
+
+- GitHub: [@Bo0ndo2](https://github.com/Bo0ndo2)
+
 ## 🌟 Show your support
 
 Give a ⭐️ if you like this project!
+
+## 📸 Screenshots
+
+### Desktop View
+
+![Desktop Screenshot](screenshots/desktop/desktop.png)
+
+### Mobile View
+
+![Mobile Screenshot](screenshots/mobile/mobile.png)
 
 ---
 
